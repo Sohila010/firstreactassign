@@ -1,0 +1,141 @@
+ #root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  width: 100%;
+  
+}
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.foot{
+  background-color: #2C3E50;
+  color: aliceblue;
+  text-align: center;
+}
+.icons i{
+  width: 50px;
+  height: 50px;
+ 
+}
+.copyright{
+  background-color: #1A252F;
+}
+.navbar{
+    background-color: #2C3E50;
+}
+.home , .about,.btnbg{
+  background-color: #1ABC9C;
+}
+.stylehr{
+ border: 2px rgb(255, 255, 255) solid;
+  width: 15%;
+
+}
+input{
+ background-color:#fff;
+ color:black
+}
+.stylehrdark{
+   border: 2px black solid;
+  width: 15%;
+}
+/* Base styles for the input */
+.my-input {
+  /* Set initial borders */
+  border: 0; /* Remove default borders */
+  border-bottom: 1px solid var(--bs-dark-subtle, #6c757d); /* Initial bottom border */
+  /* Using var() with a fallback for Bootstrap's --bs-dark-subtle, or use a direct color */
+
+  width: 50%;
+  margin-bottom: 4rem; /* Example: adjust as needed */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+
+  /* Optional: Smooth transition for the border change */
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+/* Styles for when the input is focused (user is typing) */
+.my-input:focus {
+  outline: none; 
+  box-shadow: none; 
+  border-bottom: 1px solid transparent; 
+}
+.active,.layer{
+  background-color: #1ABC9C;
+}
+.contact{
+  margin-top: 8%;
+}
+.about{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.layer i{
+  font-size: 6rem;
+}
+.item:hover .layer{
+  
+  opacity: 0.5 !important; 
+  visibility: visible;
+  top: 0 !important;
+  bottom:  0 !important;
+  left:  0 !important;
+  right:  0 !important;
+
+}
+.layer{
+   transition: all 1s;
+    opacity: 0;
+}
+.nav-link.text-white {
+  color: white; 
+}
+
+.nav-link.active { 
+  background-color: #1ABC9C;
+  color: white !important; 
+  border-radius: 0.5rem; 
+  padding: 8px 15px;
+}
+
+.nav-link {
+  transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+}
