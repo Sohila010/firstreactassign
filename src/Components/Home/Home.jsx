@@ -11,10 +11,15 @@ export default function Home() {
             <img src={avatar} className='w-100' alt="" />
                       <h3 className='text-center p-3 text-white fw-bolder'>start Framework</h3>
                   </div>
-                  
-
+                
               </div>
-              <p className='text-center text-white'>Graphic Artist - Web Designer - Illustrator</p>
+        <div className="haveline d-flex justify-content-center">
+          <hr className='stylehr' />
+          <i className="fas fa-star p-2 text-white"></i>
+          <hr className='stylehr' />
+        </div>
+
+        <p className='text-center text-white'>Graphic Artist - Web Designer - Illustrator</p>
 
       </div>
     </div>
